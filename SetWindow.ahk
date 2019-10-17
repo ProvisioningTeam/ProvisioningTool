@@ -1,6 +1,6 @@
 GuiHeight := A_ScreenHeight/13
 GuiWidth := A_ScreenWidth/5.5
-GuiY := A_ScreenHeight-(GuiHeight+40)
+GuiY := A_ScreenHeight-(GuiHeight+67)
 Gui,+AlwaysOnTop
 Gui, Show, w%GuiWidth% h%GuiHeight%, Provisioning Tool
 WinGetPos, winX, winY, winWidth, winHeight, Provisioning Tool
